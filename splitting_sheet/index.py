@@ -2,9 +2,9 @@ import pandas as pd
 import os
 
 project_dir_path = os.path.dirname(os.path.abspath(__file__))
-origin_dir_name = '/origin'
+origin_dir_name = '/excell_origin'
 origin_dir_path = os.path.abspath(''.join([project_dir_path, origin_dir_name]))
-result_dir_name = '/result'
+result_dir_name = '/excell_result'
 result_dir_path = os.path.abspath(''.join([project_dir_path, result_dir_name]))
 
 origin_file_list = os.listdir(origin_dir_path)
